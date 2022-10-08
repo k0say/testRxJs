@@ -5,6 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "build:prod": "ng build --configuration production --base-href https://k0say.github.io/test-rxjs/",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
