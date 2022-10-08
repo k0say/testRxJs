@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist/test-rxjs",
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
