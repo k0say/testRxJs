@@ -1,7 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./test-rxjs",
     "outDir": "./dist/test-rxjs",
     "sourceMap": true,
     "declaration": false,
