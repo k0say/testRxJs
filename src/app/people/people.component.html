@@ -1,0 +1,13 @@
+<input type="number" [(ngModel)]="numberOfPeople$" (ngModelChange)="n$.next($event)"/>
+
+<p>SUBJ: {{numberOfPeople$}}
+<table>
+  <th>ID</th>
+  <th>TITLE</th>
+  <th>COMPLETED</th>
+  <tr *ngFor="let person of people$ | async">
+    <td>{{ person.id }}</td>
+    <td>{{ person.title }}</td>
+    <td>{{ person.completed }}</td>
+  </tr>
+</table>
